@@ -1,0 +1,41 @@
+C:\Users\Windows10Pro\Desktop\04.01-IntroduccionSpring-Nivel2>gradle build
+
+BUILD SUCCESSFUL in 2s
+7 actionable tasks: 7 up-to-date
+C:\Users\Windows10Pro\Desktop\04.01-IntroduccionSpring-Nivel2>gradle bootRun
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2025-07-12T21:03:34.347+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] c.i.s.t.n.S.S04T01N02Application         : Starting S04T01N02Application using Java 21.0.6 with PID 2040 (C:\Users\Windows10Pro\Desktop\04.01-IntroduccionSpring-Nivel2\build\classes\java\main started by Windows10Pro in C:\Users\Windows10Pro\Desktop\04.01-IntroduccionSpring-Nivel2)
+2025-07-12T21:03:34.350+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] c.i.s.t.n.S.S04T01N02Application         : No active profile set, falling back to 1 default profile: "default"
+2025-07-12T21:03:34.413+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-12T21:03:34.413+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-12T21:03:35.598+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-07-12T21:03:35.617+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-12T21:03:35.617+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-12T21:03:35.672+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-12T21:03:35.673+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1259 ms
+2025-07-12T21:03:36.097+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-12T21:03:36.129+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2025-07-12T21:03:36.138+02:00  INFO 2040 --- [S04T01N02] [  restartedMain] c.i.s.t.n.S.S04T01N02Application         : Started S04T01N02Application in 2.38 seconds (process running for 2.902)
+2025-07-12T21:03:48.544+02:00  INFO 2040 --- [S04T01N02] [nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-12T21:03:48.544+02:00  INFO 2040 --- [S04T01N02] [nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-12T21:03:48.545+02:00  INFO 2040 --- [S04T01N02] [nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+<==========---> 80% EXECUTING [1m 18s]
+> :bootRun
+¿Desea terminar el trabajo por lotes (S/N)? s
+
+C:\Users\Windows10Pro\Desktop\04.01-IntroduccionSpring-Nivel2>gradle clean
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+C:\Users\Windows10Pro\Desktop\04.01-IntroduccionSpring-Nivel2>
