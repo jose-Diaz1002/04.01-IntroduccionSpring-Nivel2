@@ -25,12 +25,6 @@ Go to [https://start.spring.io/](https://start.spring.io/) and generate a Spring
 - Spring Web
 - Spring Boot DevTools
 
-## 🚀 Import into Eclipse
-
-1. Open Eclipse.
-2. Go to: `File > Import > Existing Gradle Project`.
-3. Select the generated project folder.
-
 ## ⚙️ Configuration
 
 Open the file `src/main/resources/application.properties` and add:
